@@ -1,5 +1,3 @@
-import os
-
 from flask import Flask
 
 from snakeeyes.blueprints.page import page

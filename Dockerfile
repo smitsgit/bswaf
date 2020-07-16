@@ -22,5 +22,5 @@ RUN pip install -r requirements.txt
 
 # add app
 COPY . .
-# RUN pip install -e .
-# CMD gunicorn -b 0.0.0.0:8000  --access-logfile - "snakeeyes.app:create_app()"
+RUN pip install -e .
+CMD gunicorn -b 0.0.0.0:8000  --access-logfile - "snakeeyes.app:create_app()"
