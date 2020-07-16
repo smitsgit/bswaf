@@ -1,0 +1,3 @@
+[run]
+omit = snakeeyes/tests/*,.venv/*, config/*, instance/*
+branch = True
